@@ -31,5 +31,5 @@ jobs:
     - name: installing surge
       run: npm install --global surge
     - name: deploying using surge
-      run: surge C:\Users\Smile\Documents\GitHub\Ahmad well-come.surge.sh --token  ${{secrets.SURGE_token}}
+      run: surge ./ well-come.surge.sh --token  ${{secrets.SURGE_token}}
      
